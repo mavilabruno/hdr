@@ -21,13 +21,19 @@
     'data': [
         # 'security/ir.model.access.csv',
 
-        'views/assets.xml',
+
 
     ],
+    "assets": {
+        "web.assets_frontend": [
+            "elearning_private_youtube_video/static/scss/style.scss",
+            "elearning_private_youtube_video/static/js/slides_course_fullscreen_player_video.js",
+            ],
+
+    },
+
     'currency': 'EUR',
     'price': 25,
     # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+
 }
